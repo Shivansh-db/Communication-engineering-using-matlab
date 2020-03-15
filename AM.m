@@ -7,7 +7,7 @@ Ac=input('Enter the Amplitude of the Carrier Signal');
 fm=input('Enter the frequency of the Message Signal');
 fc=input('Enter the frequency of the Carrier Signal');
 m=Am/Ac; %Modulation Index : m<1= Undermodulated and m>1= Overmodulated
-fs=10000;%sampling frequency
+fs=10000;%sampling frequency change according to carrier freq moret that 2 times carrier frequency
 Ts=1/fs;%sampling period
 N=10000;%number of samples
 t=[0:Ts:N*Ts-Ts];%time axis
